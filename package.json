@@ -1,0 +1,44 @@
+{
+  "name": "realtime",
+  "version": "1.0.0",
+  "description": "realtime drawing game built with soketIO, Gulp and Node",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server --ignore assets/ --ignore src/static",
+    "dev:assets": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan3433/realtime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan3433/realtime/issues"
+  },
+  "homepage": "https://github.com/ryan3433/realtime#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babelify": "^10.0.0",
+    "del": "^5.1.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
