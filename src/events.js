@@ -4,7 +4,18 @@ const events = {
   disconnect: "disconnect",
   disconnected: "disconnected",
   sendMsg: "sendMsg",
-  newMsg: "newMsg"
+  newMsg: "newMsg",
+  beginPath: "beginPath",
+  strokePath: "strokePath",
+  beganPath: "beganPath",
+  strokedPath: "strokedPath",
+  fill: "fill",
+  filled: "filled",
+  playerUpdate: "playerUpdat",
+  gameStarted: "gameStarted",
+  leaderNotif: "leaderNotif",
+  gameEnded: "gameEnded",
+  gameStarting: "gameStarting"
 };
 
 export default events;
